@@ -7,15 +7,60 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3414CA981EFCA55000FF0B15 /* EnablingPhysicsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3414CA971EFCA55000FF0B15 /* EnablingPhysicsViewController.swift */; };
+		34216EEC1F11D20700832423 /* GoogleBlocksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34216EEB1F11D20700832423 /* GoogleBlocksViewController.swift */; };
+		34216EEE1F11D29900832423 /* farm.dae in Resources */ = {isa = PBXBuildFile; fileRef = 34216EED1F11D29500832423 /* farm.dae */; };
+		342314191EFB404000AF6A43 /* OverlayPlanesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342314181EFB404000AF6A43 /* OverlayPlanesViewController.swift */; };
+		3423141B1EFB409F00AF6A43 /* OverlayPlane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3423141A1EFB409F00AF6A43 /* OverlayPlane.swift */; };
+		3425A7861F07FFB400323CE5 /* MissleLaunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425A7851F07FFB400323CE5 /* MissleLaunchViewController.swift */; };
+		3425A7891F08000200323CE5 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425A7871F07FFD500323CE5 /* Extensions.swift */; };
+		3425A78B1F0827D300323CE5 /* Missile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3425A78A1F0827D300323CE5 /* Missile.swift */; };
+		3425A78E1F082C4F00323CE5 /* smoke.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 3425A78C1F082C4F00323CE5 /* smoke.scnp */; };
+		3425A78F1F082C4F00323CE5 /* smoke.png in Resources */ = {isa = PBXBuildFile; fileRef = 3425A78D1F082C4F00323CE5 /* smoke.png */; };
+		3425A7921F09542400323CE5 /* fire.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 3425A7901F09542400323CE5 /* fire.scnp */; };
+		3425A7931F09542400323CE5 /* spark.png in Resources */ = {isa = PBXBuildFile; fileRef = 3425A7911F09542400323CE5 /* spark.png */; };
 		342C4CFA1EF7708100F9C8B3 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C4CF91EF7708100F9C8B3 /* AppDelegate.swift */; };
 		342C4CFC1EF7708100F9C8B3 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 342C4CFB1EF7708100F9C8B3 /* art.scnassets */; };
 		342C4CFE1EF7708100F9C8B3 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 342C4CFD1EF7708100F9C8B3 /* ViewController.swift */; };
 		342C4D011EF7708100F9C8B3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342C4CFF1EF7708100F9C8B3 /* Main.storyboard */; };
 		342C4D031EF7708100F9C8B3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 342C4D021EF7708100F9C8B3 /* Assets.xcassets */; };
 		342C4D061EF7708100F9C8B3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 342C4D041EF7708100F9C8B3 /* LaunchScreen.storyboard */; };
+		34359AB41EFB45F100478D64 /* overlay_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 34359AB31EFB45F100478D64 /* overlay_grid.png */; };
+		34359AB71EFB4B9900478D64 /* PlacingVirtualObjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34359AB61EFB4B9900478D64 /* PlacingVirtualObjectsViewController.swift */; };
+		34359ABC1EFB547D00478D64 /* PBRViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34359ABB1EFB547D00478D64 /* PBRViewController.swift */; };
+		3437C73A1F140F5F00A06EA4 /* MeasurementViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3437C7391F140F5F00A06EA4 /* MeasurementViewController.swift */; };
+		343B6E191F1AED190032369B /* LightViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 343B6E181F1AED190032369B /* LightViewController.swift */; };
+		3449990A1EFA0B8900C89261 /* DetectingPlanesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 344999091EFA0B8900C89261 /* DetectingPlanesViewController.swift */; };
+		34546CC41EF9BDCD0034155D /* MultipleObjectsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34546CC31EF9BDCD0034155D /* MultipleObjectsViewController.swift */; };
+		347F7B641F0F0BE700CEE0A6 /* TargetAppViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 347F7B631F0F0BE700CEE0A6 /* TargetAppViewController.swift */; };
+		34971FD21EF8980400D29244 /* SimpleBoxViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34971FD11EF8980400D29244 /* SimpleBoxViewController.swift */; };
+		34971FD81EF8BD5800D29244 /* SimpleBoxWithTouchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34971FD71EF8BD5800D29244 /* SimpleBoxWithTouchViewController.swift */; };
+		34D07D3A1EFF1B0D006E3B75 /* ApplyingForcesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D07D391EFF1B0D006E3B75 /* ApplyingForcesViewController.swift */; };
+		34D07D3D1EFF4AD0006E3B75 /* LoadingDAEViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D07D3C1EFF4AD0006E3B75 /* LoadingDAEViewController.swift */; };
+		34D2899E1F002DAD009B50A4 /* DisplayingTextViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D2899D1F002DAD009B50A4 /* DisplayingTextViewController.swift */; };
+		34D289A11F003195009B50A4 /* DominoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D289A01F003195009B50A4 /* DominoViewController.swift */; };
+		34D289A31F00595E009B50A4 /* MenuTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D289A21F00595E009B50A4 /* MenuTableViewController.swift */; };
+		34D289A61F0059AC009B50A4 /* LoadingModelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34D289A51F0059AC009B50A4 /* LoadingModelsViewController.swift */; };
+		34EB72F91EFAC93900D164B2 /* PuttingObjectsOnPlaneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EB72F81EFAC93900D164B2 /* PuttingObjectsOnPlaneViewController.swift */; };
+		34EB72FB1EFACD9B00D164B2 /* Plane.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34EB72FA1EFACD9B00D164B2 /* Plane.swift */; };
+		34FB4BA01F1A8FA6009CE6EA /* tron_grid.png in Resources */ = {isa = PBXBuildFile; fileRef = 342751FF1EFB4518008C48AC /* tron_grid.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3414CA971EFCA55000FF0B15 /* EnablingPhysicsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnablingPhysicsViewController.swift; sourceTree = "<group>"; };
+		34216EEB1F11D20700832423 /* GoogleBlocksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleBlocksViewController.swift; sourceTree = "<group>"; };
+		34216EED1F11D29500832423 /* farm.dae */ = {isa = PBXFileReference; lastKnownFileType = text.xml.dae; path = farm.dae; sourceTree = "<group>"; };
+		342314181EFB404000AF6A43 /* OverlayPlanesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPlanesViewController.swift; sourceTree = "<group>"; };
+		3423141A1EFB409F00AF6A43 /* OverlayPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPlane.swift; sourceTree = "<group>"; };
+		3425A7851F07FFB400323CE5 /* MissleLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissleLaunchViewController.swift; sourceTree = "<group>"; };
+		3425A7871F07FFD500323CE5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3425A7881F07FFE300323CE5 /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
+		3425A78A1F0827D300323CE5 /* Missile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Missile.swift; sourceTree = "<group>"; };
+		3425A78C1F082C4F00323CE5 /* smoke.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = smoke.scnp; sourceTree = "<group>"; };
+		3425A78D1F082C4F00323CE5 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
+		3425A7901F09542400323CE5 /* fire.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = fire.scnp; sourceTree = "<group>"; };
+		3425A7911F09542400323CE5 /* spark.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = spark.png; sourceTree = "<group>"; };
+		342751FF1EFB4518008C48AC /* tron_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tron_grid.png; path = "Hello-AR/tron_grid.png"; sourceTree = SOURCE_ROOT; };
 		342C4CF61EF7708100F9C8B3 /* Hello-AR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Hello-AR.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		342C4CF91EF7708100F9C8B3 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		342C4CFB1EF7708100F9C8B3 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
@@ -24,6 +69,24 @@
 		342C4D021EF7708100F9C8B3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		342C4D051EF7708100F9C8B3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		342C4D071EF7708100F9C8B3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		34359AB31EFB45F100478D64 /* overlay_grid.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = overlay_grid.png; path = ../overlay_grid.png; sourceTree = "<group>"; };
+		34359AB61EFB4B9900478D64 /* PlacingVirtualObjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlacingVirtualObjectsViewController.swift; sourceTree = "<group>"; };
+		34359ABB1EFB547D00478D64 /* PBRViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PBRViewController.swift; sourceTree = "<group>"; };
+		3437C7391F140F5F00A06EA4 /* MeasurementViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeasurementViewController.swift; sourceTree = "<group>"; };
+		343B6E181F1AED190032369B /* LightViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightViewController.swift; sourceTree = "<group>"; };
+		344999091EFA0B8900C89261 /* DetectingPlanesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetectingPlanesViewController.swift; sourceTree = "<group>"; };
+		34546CC31EF9BDCD0034155D /* MultipleObjectsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipleObjectsViewController.swift; sourceTree = "<group>"; };
+		347F7B631F0F0BE700CEE0A6 /* TargetAppViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetAppViewController.swift; sourceTree = "<group>"; };
+		34971FD11EF8980400D29244 /* SimpleBoxViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBoxViewController.swift; sourceTree = "<group>"; };
+		34971FD71EF8BD5800D29244 /* SimpleBoxWithTouchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleBoxWithTouchViewController.swift; sourceTree = "<group>"; };
+		34D07D391EFF1B0D006E3B75 /* ApplyingForcesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplyingForcesViewController.swift; sourceTree = "<group>"; };
+		34D07D3C1EFF4AD0006E3B75 /* LoadingDAEViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingDAEViewController.swift; sourceTree = "<group>"; };
+		34D2899D1F002DAD009B50A4 /* DisplayingTextViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DisplayingTextViewController.swift; sourceTree = "<group>"; };
+		34D289A01F003195009B50A4 /* DominoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DominoViewController.swift; sourceTree = "<group>"; };
+		34D289A21F00595E009B50A4 /* MenuTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewController.swift; sourceTree = "<group>"; };
+		34D289A51F0059AC009B50A4 /* LoadingModelsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingModelsViewController.swift; sourceTree = "<group>"; };
+		34EB72F81EFAC93900D164B2 /* PuttingObjectsOnPlaneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PuttingObjectsOnPlaneViewController.swift; sourceTree = "<group>"; };
+		34EB72FA1EFACD9B00D164B2 /* Plane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Plane.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +100,46 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3414CA961EFCA53300FF0B15 /* EnablingPhyiscsAndCollision */ = {
+			isa = PBXGroup;
+			children = (
+				3414CA971EFCA55000FF0B15 /* EnablingPhysicsViewController.swift */,
+			);
+			path = EnablingPhyiscsAndCollision;
+			sourceTree = "<group>";
+		};
+		34216EEA1F11D1F800832423 /* GoogleBlocks */ = {
+			isa = PBXGroup;
+			children = (
+				34216EED1F11D29500832423 /* farm.dae */,
+				34216EEB1F11D20700832423 /* GoogleBlocksViewController.swift */,
+			);
+			path = GoogleBlocks;
+			sourceTree = "<group>";
+		};
+		342314171EFB402500AF6A43 /* OverlayingPlanes */ = {
+			isa = PBXGroup;
+			children = (
+				342314181EFB404000AF6A43 /* OverlayPlanesViewController.swift */,
+				34359AB31EFB45F100478D64 /* overlay_grid.png */,
+				3423141A1EFB409F00AF6A43 /* OverlayPlane.swift */,
+			);
+			path = OverlayingPlanes;
+			sourceTree = "<group>";
+		};
+		3425A7841F07FFA400323CE5 /* MissleLaunch */ = {
+			isa = PBXGroup;
+			children = (
+				3425A7851F07FFB400323CE5 /* MissleLaunchViewController.swift */,
+				3425A78A1F0827D300323CE5 /* Missile.swift */,
+				3425A78C1F082C4F00323CE5 /* smoke.scnp */,
+				3425A78D1F082C4F00323CE5 /* smoke.png */,
+				3425A7901F09542400323CE5 /* fire.scnp */,
+				3425A7911F09542400323CE5 /* spark.png */,
+			);
+			path = MissleLaunch;
+			sourceTree = "<group>";
+		};
 		342C4CED1EF7708100F9C8B3 = {
 			isa = PBXGroup;
 			children = (
@@ -56,15 +159,159 @@
 		342C4CF81EF7708100F9C8B3 /* Hello-AR */ = {
 			isa = PBXGroup;
 			children = (
+				34FB4B9D1F1A8ED8009CE6EA /* Light */,
+				3437C7381F140F4300A06EA4 /* MeasurementApp */,
+				34216EEA1F11D1F800832423 /* GoogleBlocks */,
+				347F7B621F0F0BD500CEE0A6 /* TargetApp */,
+				3425A7841F07FFA400323CE5 /* MissleLaunch */,
+				34D289A41F00599D009B50A4 /* LoadingModels */,
+				34D2899F1F003106009B50A4 /* Dominos */,
+				34D2899C1F002D98009B50A4 /* DisplayText */,
+				34D07D3B1EFF4ABA006E3B75 /* LoadingDAEFormats */,
+				34D07D381EFF1ACB006E3B75 /* ApplyingForces */,
+				3414CA961EFCA53300FF0B15 /* EnablingPhyiscsAndCollision */,
+				34359ABA1EFB546B00478D64 /* PBR */,
+				34359AB51EFB4B8100478D64 /* PlacingVirtualObjectsOnPlane */,
+				342314171EFB402500AF6A43 /* OverlayingPlanes */,
+				34EB72F71EFAC91D00D164B2 /* Objects On Plane */,
+				344999081EFA0B7500C89261 /* Detecting Planes */,
+				34546CC21EF9BDB60034155D /* MultipleObjects */,
+				34971FD61EF8BCFC00D29244 /* SimpleBoxWithTouch */,
+				34971FD31EF8980D00D29244 /* SimpleBox */,
 				342C4CF91EF7708100F9C8B3 /* AppDelegate.swift */,
 				342C4CFB1EF7708100F9C8B3 /* art.scnassets */,
 				342C4CFD1EF7708100F9C8B3 /* ViewController.swift */,
 				342C4CFF1EF7708100F9C8B3 /* Main.storyboard */,
 				342C4D021EF7708100F9C8B3 /* Assets.xcassets */,
 				342C4D041EF7708100F9C8B3 /* LaunchScreen.storyboard */,
+				3425A7871F07FFD500323CE5 /* Extensions.swift */,
 				342C4D071EF7708100F9C8B3 /* Info.plist */,
+				34D289A21F00595E009B50A4 /* MenuTableViewController.swift */,
 			);
 			path = "Hello-AR";
+			sourceTree = "<group>";
+		};
+		34359AB51EFB4B8100478D64 /* PlacingVirtualObjectsOnPlane */ = {
+			isa = PBXGroup;
+			children = (
+				34359AB61EFB4B9900478D64 /* PlacingVirtualObjectsViewController.swift */,
+			);
+			path = PlacingVirtualObjectsOnPlane;
+			sourceTree = "<group>";
+		};
+		34359ABA1EFB546B00478D64 /* PBR */ = {
+			isa = PBXGroup;
+			children = (
+				34359ABB1EFB547D00478D64 /* PBRViewController.swift */,
+			);
+			path = PBR;
+			sourceTree = "<group>";
+		};
+		3437C7381F140F4300A06EA4 /* MeasurementApp */ = {
+			isa = PBXGroup;
+			children = (
+				3437C7391F140F5F00A06EA4 /* MeasurementViewController.swift */,
+			);
+			path = MeasurementApp;
+			sourceTree = "<group>";
+		};
+		344999081EFA0B7500C89261 /* Detecting Planes */ = {
+			isa = PBXGroup;
+			children = (
+				344999091EFA0B8900C89261 /* DetectingPlanesViewController.swift */,
+			);
+			path = "Detecting Planes";
+			sourceTree = "<group>";
+		};
+		34546CC21EF9BDB60034155D /* MultipleObjects */ = {
+			isa = PBXGroup;
+			children = (
+				34546CC31EF9BDCD0034155D /* MultipleObjectsViewController.swift */,
+				3425A7881F07FFE300323CE5 /* earth.jpg */,
+			);
+			path = MultipleObjects;
+			sourceTree = "<group>";
+		};
+		347F7B621F0F0BD500CEE0A6 /* TargetApp */ = {
+			isa = PBXGroup;
+			children = (
+				347F7B631F0F0BE700CEE0A6 /* TargetAppViewController.swift */,
+			);
+			path = TargetApp;
+			sourceTree = "<group>";
+		};
+		34971FD31EF8980D00D29244 /* SimpleBox */ = {
+			isa = PBXGroup;
+			children = (
+				34971FD11EF8980400D29244 /* SimpleBoxViewController.swift */,
+			);
+			path = SimpleBox;
+			sourceTree = "<group>";
+		};
+		34971FD61EF8BCFC00D29244 /* SimpleBoxWithTouch */ = {
+			isa = PBXGroup;
+			children = (
+				34971FD71EF8BD5800D29244 /* SimpleBoxWithTouchViewController.swift */,
+			);
+			path = SimpleBoxWithTouch;
+			sourceTree = "<group>";
+		};
+		34D07D381EFF1ACB006E3B75 /* ApplyingForces */ = {
+			isa = PBXGroup;
+			children = (
+				34D07D391EFF1B0D006E3B75 /* ApplyingForcesViewController.swift */,
+			);
+			path = ApplyingForces;
+			sourceTree = "<group>";
+		};
+		34D07D3B1EFF4ABA006E3B75 /* LoadingDAEFormats */ = {
+			isa = PBXGroup;
+			children = (
+				34D07D3C1EFF4AD0006E3B75 /* LoadingDAEViewController.swift */,
+			);
+			path = LoadingDAEFormats;
+			sourceTree = "<group>";
+		};
+		34D2899C1F002D98009B50A4 /* DisplayText */ = {
+			isa = PBXGroup;
+			children = (
+				34D2899D1F002DAD009B50A4 /* DisplayingTextViewController.swift */,
+			);
+			path = DisplayText;
+			sourceTree = "<group>";
+		};
+		34D2899F1F003106009B50A4 /* Dominos */ = {
+			isa = PBXGroup;
+			children = (
+				34D289A01F003195009B50A4 /* DominoViewController.swift */,
+			);
+			path = Dominos;
+			sourceTree = "<group>";
+		};
+		34D289A41F00599D009B50A4 /* LoadingModels */ = {
+			isa = PBXGroup;
+			children = (
+				34D289A51F0059AC009B50A4 /* LoadingModelsViewController.swift */,
+			);
+			path = LoadingModels;
+			sourceTree = "<group>";
+		};
+		34EB72F71EFAC91D00D164B2 /* Objects On Plane */ = {
+			isa = PBXGroup;
+			children = (
+				34EB72F81EFAC93900D164B2 /* PuttingObjectsOnPlaneViewController.swift */,
+				342751FF1EFB4518008C48AC /* tron_grid.png */,
+				34EB72FA1EFACD9B00D164B2 /* Plane.swift */,
+			);
+			path = "Objects On Plane";
+			sourceTree = "<group>";
+		};
+		34FB4B9D1F1A8ED8009CE6EA /* Light */ = {
+			isa = PBXGroup;
+			children = (
+				343B6E181F1AED190032369B /* LightViewController.swift */,
+			);
+			path = Light;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +373,16 @@
 			buildActionMask = 2147483647;
 			files = (
 				342C4CFC1EF7708100F9C8B3 /* art.scnassets in Resources */,
+				3425A7931F09542400323CE5 /* spark.png in Resources */,
+				3425A7921F09542400323CE5 /* fire.scnp in Resources */,
 				342C4D061EF7708100F9C8B3 /* LaunchScreen.storyboard in Resources */,
+				34216EEE1F11D29900832423 /* farm.dae in Resources */,
+				3425A78F1F082C4F00323CE5 /* smoke.png in Resources */,
+				34FB4BA01F1A8FA6009CE6EA /* tron_grid.png in Resources */,
 				342C4D031EF7708100F9C8B3 /* Assets.xcassets in Resources */,
 				342C4D011EF7708100F9C8B3 /* Main.storyboard in Resources */,
+				34359AB41EFB45F100478D64 /* overlay_grid.png in Resources */,
+				3425A78E1F082C4F00323CE5 /* smoke.scnp in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +393,32 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				34D289A11F003195009B50A4 /* DominoViewController.swift in Sources */,
+				34D07D3D1EFF4AD0006E3B75 /* LoadingDAEViewController.swift in Sources */,
+				34216EEC1F11D20700832423 /* GoogleBlocksViewController.swift in Sources */,
+				3423141B1EFB409F00AF6A43 /* OverlayPlane.swift in Sources */,
+				34EB72FB1EFACD9B00D164B2 /* Plane.swift in Sources */,
+				3425A78B1F0827D300323CE5 /* Missile.swift in Sources */,
+				3437C73A1F140F5F00A06EA4 /* MeasurementViewController.swift in Sources */,
+				34546CC41EF9BDCD0034155D /* MultipleObjectsViewController.swift in Sources */,
+				3414CA981EFCA55000FF0B15 /* EnablingPhysicsViewController.swift in Sources */,
+				3449990A1EFA0B8900C89261 /* DetectingPlanesViewController.swift in Sources */,
+				34359ABC1EFB547D00478D64 /* PBRViewController.swift in Sources */,
+				342314191EFB404000AF6A43 /* OverlayPlanesViewController.swift in Sources */,
+				34359AB71EFB4B9900478D64 /* PlacingVirtualObjectsViewController.swift in Sources */,
+				347F7B641F0F0BE700CEE0A6 /* TargetAppViewController.swift in Sources */,
+				34D289A61F0059AC009B50A4 /* LoadingModelsViewController.swift in Sources */,
 				342C4CFE1EF7708100F9C8B3 /* ViewController.swift in Sources */,
+				34D2899E1F002DAD009B50A4 /* DisplayingTextViewController.swift in Sources */,
+				3425A7891F08000200323CE5 /* Extensions.swift in Sources */,
+				34D07D3A1EFF1B0D006E3B75 /* ApplyingForcesViewController.swift in Sources */,
+				34D289A31F00595E009B50A4 /* MenuTableViewController.swift in Sources */,
+				3425A7861F07FFB400323CE5 /* MissleLaunchViewController.swift in Sources */,
+				34971FD21EF8980400D29244 /* SimpleBoxViewController.swift in Sources */,
+				34EB72F91EFAC93900D164B2 /* PuttingObjectsOnPlaneViewController.swift in Sources */,
+				34971FD81EF8BD5800D29244 /* SimpleBoxWithTouchViewController.swift in Sources */,
 				342C4CFA1EF7708100F9C8B3 /* AppDelegate.swift in Sources */,
+				343B6E191F1AED190032369B /* LightViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -273,10 +551,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				DEVELOPMENT_TEAM = X7ERH955JW;
 				INFOPLIST_FILE = "Hello-AR/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.azamsharp.Hello-AR";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.uk.ironworksmedialimited.Hello-AR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -287,10 +565,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = B2Q8EGNCQA;
+				DEVELOPMENT_TEAM = X7ERH955JW;
 				INFOPLIST_FILE = "Hello-AR/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "com.azamsharp.Hello-AR";
+				PRODUCT_BUNDLE_IDENTIFIER = "co.uk.ironworksmedialimited.Hello-AR";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -316,6 +594,7 @@
 				342C4D0C1EF7708100F9C8B3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

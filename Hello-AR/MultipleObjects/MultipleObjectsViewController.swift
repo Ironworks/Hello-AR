@@ -32,17 +32,20 @@ class MultipleObjectsViewController: UIViewController, ARSCNViewDelegate {
         let box = SCNBox(width: 0.2, height: 0.2, length: 0.2, chamferRadius: 0)
         
         let material = SCNMaterial()
-        material.diffuse.contents = UIImage(named :"Brick-2377.jpg")
+        material.diffuse.contents = UIImage(named :"brick")
+        let colorMaterial = SCNMaterial()
+        colorMaterial.diffuse.contents = UIColor.red
         
         let node = SCNNode()
         node.geometry = box
-        node.geometry?.materials = [material]
+        node.geometry?.materials = [material, colorMaterial, material]
         node.position = SCNVector3(-0.1, 0.1, -0.5)
         
         let sphere = SCNSphere(radius: 0.2)
         
         let sphereMaterial = SCNMaterial()
-        sphereMaterial.diffuse.contents = UIImage(named :"earth.jpg")
+        let image = UIImage(named: "earth")
+        sphereMaterial.diffuse.contents = image//UIImage(named :"earth.jpg")
         
         let sphereNode = SCNNode()
         sphereNode.geometry = sphere

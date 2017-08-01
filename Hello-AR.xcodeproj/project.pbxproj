@@ -54,7 +54,6 @@
 		3423141A1EFB409F00AF6A43 /* OverlayPlane.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OverlayPlane.swift; sourceTree = "<group>"; };
 		3425A7851F07FFB400323CE5 /* MissleLaunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissleLaunchViewController.swift; sourceTree = "<group>"; };
 		3425A7871F07FFD500323CE5 /* Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
-		3425A7881F07FFE300323CE5 /* earth.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = earth.jpg; sourceTree = "<group>"; };
 		3425A78A1F0827D300323CE5 /* Missile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Missile.swift; sourceTree = "<group>"; };
 		3425A78C1F082C4F00323CE5 /* smoke.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = smoke.scnp; sourceTree = "<group>"; };
 		3425A78D1F082C4F00323CE5 /* smoke.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smoke.png; sourceTree = "<group>"; };
@@ -227,7 +226,6 @@
 			isa = PBXGroup;
 			children = (
 				34546CC31EF9BDCD0034155D /* MultipleObjectsViewController.swift */,
-				3425A7881F07FFE300323CE5 /* earth.jpg */,
 			);
 			path = MultipleObjects;
 			sourceTree = "<group>";

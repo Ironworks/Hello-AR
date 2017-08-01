@@ -29,10 +29,10 @@ class SimpleBoxViewController: UIViewController, ARSCNViewDelegate {
         // Create a new scene
         let scene = SCNScene()
         
-        let box = SCNBox(width: 0.2, height: 0.2, length: 0.2, chamferRadius: 0)
+        let box = SCNBox(width: 0.2, height: 0.2, length: 0.2, chamferRadius: 0.01)
         
         let material = SCNMaterial()
-        material.diffuse.contents = UIColor.red
+        material.diffuse.contents = UIColor.black
         
         let node = SCNNode()
         node.geometry = box
